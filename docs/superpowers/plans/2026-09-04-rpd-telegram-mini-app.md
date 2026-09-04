@@ -440,7 +440,7 @@ Return only the validated minimal identity needed by the use case.
 
 - [ ] **Step 3: Write failing exact-origin CORS and request-boundary tests**
 
-Cover allowed preflight, disallowed/missing origin, non-JSON, >16 KiB body, extra fields, `url`/`userId` injection, malformed IDs, and wrong methods.
+Cover allowed production preflight, disallowed/missing origin, non-JSON, >16 KiB body, extra fields, `url`/`userId` injection, malformed IDs, and wrong methods. Production permits only the exact configured `MINI_APP_ORIGIN`. Local development may permit one explicitly configured localhost origin through a development-only environment binding/configuration; it is never inferred from the request and is disabled in production. No environment may return `Access-Control-Allow-Origin: *`.
 
 - [ ] **Step 4: Implement request boundary and rerun GREEN**
 
@@ -466,7 +466,7 @@ git add apps/worker
 git commit -m "feat: securely deliver RPD documents from Worker"
 ```
 
-**Acceptance criteria:** Arbitrary URLs and identities are structurally impossible; stale/forged initData is rejected; Worker trusts only configured catalog data; upstream failures are bounded and sanitized.
+**Acceptance criteria:** Arbitrary URLs and identities are structurally impossible; stale/forged initData is rejected; Worker trusts only configured catalog data; upstream failures are bounded and sanitized; production CORS is exact-origin only and development accepts at most one explicitly configured localhost origin, never `*`.
 
 ## Task 8: Implement authenticated webhook and `/start`
 
@@ -559,7 +559,7 @@ Parse the workflow and manifests to assert `npm ci → generate:catalog → lint
 
 - [ ] **Step 2: Implement the workflow and rerun GREEN**
 
-Set Vite base from `VITE_BASE_PATH` with repository-name fallback documented explicitly.
+Set Vite base from `VITE_BASE_PATH` with repository-name fallback documented explicitly. Unless `apps/web/vite.config.ts` deliberately overrides `build.outDir`, the exact Pages deployment artifact is `apps/web/dist/`; workflow configuration and tests must use that path.
 
 - [ ] **Step 3: Write README as an executable operator runbook**
 
@@ -604,7 +604,7 @@ Expected: all suites PASS with no unhandled rejection or secret-bearing snapshot
 - [ ] **Step 4: Run production builds**
 
 Run: `npm run build`  
-Expected: web and Worker builds PASS; inspect `dist` to confirm no `BOT_TOKEN`, `TELEGRAM_WEBHOOK_SECRET`, raw initData fixture, or absolute local path.
+Expected: web and Worker builds PASS. Inspect built artifacts for actual configured secret values using controlled sentinel secrets in tests/build checks. The strings `BOT_TOKEN` and `TELEGRAM_WEBHOOK_SECRET` are allowed as Worker env-binding names; their real values must never be embedded. Also confirm no raw initData fixture or absolute local path ships.
 
 - [ ] **Step 5: Run browser functional tests at mobile widths**
 
