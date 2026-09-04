@@ -5,7 +5,8 @@
 .header-brand { text-align: center; line-height: 1.05; }
 .header-brand strong { display: block; font-size: 15px; letter-spacing: -.01em; }
 .header-brand small { color: var(--muted); font-size: 9px; letter-spacing: .03em; }
-.app-main { min-width: 0; padding: 15px var(--page-pad) calc(82px + var(--safe-bottom)); }
+.app-main { min-width: 0; padding: 15px var(--page-pad) calc(20px + var(--safe-bottom)); }
+.with-bottom-nav .app-main { padding-bottom: calc(82px + var(--safe-bottom)); }
 .screen { min-width: 0; }
 .screen-heading { display: flex; align-items: center; gap: 9px; margin-bottom: 3px; }
 .screen-heading h1, .home-title { margin: 0; font-size: 23px; line-height: 1.15; letter-spacing: -.025em; }
