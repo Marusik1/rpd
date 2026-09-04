@@ -12,6 +12,9 @@
     "packages/shared"
   ],
   "scripts": {
+    "dev:web": "npm run dev --workspace @rpd/web",
+    "dev:worker": "npm run dev --workspace @rpd/worker",
+    "deploy:worker": "npm run deploy --workspace @rpd/worker",
     "generate:catalog": "tsx scripts/generate-catalog.ts",
     "lint": "eslint . --max-warnings=0",
     "typecheck": "npm run typecheck --workspaces --if-present && tsc -p tsconfig.scripts.json --noEmit",
