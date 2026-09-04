@@ -1,0 +1,4 @@
+import { Link, useLocation, useParams } from 'react-router-dom';
+import { useCatalog } from '../catalog/catalog-provider.js';
+import { findDocument } from '../catalog/selectors.js';
+export function DocumentPage() { const { documentId = '' } = useParams(); const { documents } = useCatalog(); const location = useLocation(); const document = findDocument(documents, documentId); if (!document) return <section><h1>Документ не найден</h1><Link to="/">На главную</Link></section>; const back = (location.state as { back?: string } | null)?.back ?? (document.level === 'bachelor' ? `/bachelor/${document.course}` : `/master/${document.program}/${document.course}`); return <article><h1>{document.name}</h1>{document.code && <p>{document.code}</p>}<p>{document.filename}</p><Link to={back}>Назад</Link> <Link to="/">На главную</Link></article>; }
