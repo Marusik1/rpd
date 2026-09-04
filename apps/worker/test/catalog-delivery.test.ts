@@ -22,7 +22,7 @@ describe('trusted catalog', () => {
     expect(second?.document.id).toBe(document.id);
   });
   it('force-refreshes once for an unknown ID', async () => {
-    const fetcher = vi.fn<typeof fetch>().mockResolvedValue(response([]));
+    const fetcher = vi.fn<typeof fetch>().mockImplementation(() => Promise.resolve(response([])));
     await expect(findTrustedDocument(catalogUrl, 'unknown', { fetcher })).resolves.toBeNull();
     expect(fetcher).toHaveBeenCalledTimes(2);
   });
@@ -32,7 +32,7 @@ describe('trusted catalog', () => {
     await expect(findTrustedDocument('https://example.com/not-catalog.json?x=1', document.id, { fetcher })).rejects.toThrow('misconfigured');
   });
   it('supplies a ten-second abort signal to catalog requests', async () => {
-    const fetcher = vi.fn<typeof fetch>().mockResolvedValue(response([]));
+    const fetcher = vi.fn<typeof fetch>().mockImplementation(() => Promise.resolve(response([])));
     await findTrustedDocument(catalogUrl, 'unknown', { fetcher });
     const [, init] = fetcher.mock.calls[0] ?? [];
     expect(init?.signal).toBeInstanceOf(AbortSignal);
