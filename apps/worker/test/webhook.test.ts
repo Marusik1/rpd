@@ -80,6 +80,7 @@ describe('Telegram webhook', () => {
     expect(body.text).toMatch(/[А-Яа-яЁё]/u);
     expect(body.reply_markup.inline_keyboard[0]?.[0]?.web_app.url).toBe(env.MINI_APP_URL);
     expect(JSON.stringify(body)).not.toContain(attackerUrl);
+    expect(init?.signal).toBeInstanceOf(AbortSignal);
     fetchSpy.mockRestore();
   });
 });

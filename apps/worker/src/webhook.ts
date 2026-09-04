@@ -2,6 +2,7 @@ import type { Env } from './env.js';
 
 const SECRET_HEADER = 'X-Telegram-Bot-Api-Secret-Token';
 const TELEGRAM_API_ROOT = 'https://api.telegram.org';
+const TELEGRAM_TIMEOUT_MILLISECONDS = 10_000;
 
 interface TelegramUpdate {
   message?: {
@@ -53,6 +54,7 @@ async function sendStartMessage(env: Env, chatId: number, fetcher: typeof fetch)
         inline_keyboard: [[{ text: 'Открыть каталог РПД', web_app: { url: env.MINI_APP_URL } }]],
       },
     }),
+    signal: AbortSignal.timeout(TELEGRAM_TIMEOUT_MILLISECONDS),
   });
   return response.ok;
 }

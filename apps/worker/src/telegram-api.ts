@@ -10,7 +10,21 @@ export class TelegramApiError extends Error {
 }
 
 export function documentCaption(document: CatalogDocument): string {
-  return `РПД: ${document.name}${document.code ? ` (${document.code})` : ''}`;
+  const level = document.level === 'bachelor' ? 'Бакалавриат' : 'Магистратура';
+  const program = document.program === 'corporate-law'
+    ? 'Корпоративное право'
+    : document.program === 'business-legal-support'
+      ? 'Правовое сопровождение бизнеса'
+      : null;
+  return [
+    `📚 ${document.name}`,
+    document.code,
+    '',
+    `🎓 ${level}${program ? ` · ${program}` : ''}`,
+    `📖 ${document.course} курс`,
+    '',
+    'Рабочая программа дисциплины',
+  ].filter((line) => line !== null).join('\n');
 }
 
 export async function sendTelegramDocument(input: {

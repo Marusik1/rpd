@@ -47,6 +47,8 @@ describe('Telegram delivery', () => {
     const body = JSON.parse(String(init?.body)) as Record<string, unknown>;
     expect(body).toMatchObject({ chat_id: 424242, caption: documentCaption(document) });
     expect(body.document).toBe('https://example.github.io/rpd/documents/bachelor/1/test.pdf');
+    expect(body.caption).toContain('Бакалавриат');
+    expect(body.caption).toContain('1 курс');
   });
   it('maps Telegram failures to a bounded sanitized error', async () => {
     const fetcher = vi.fn<typeof fetch>().mockResolvedValue(Response.json({ ok: false, description: 'secret upstream detail' }));

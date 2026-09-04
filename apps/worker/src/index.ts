@@ -12,7 +12,7 @@ function withCors(response: Response, origin: string): Response {
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
-    if (url.pathname === '/health' && request.method === 'GET') return Response.json({ ok: true });
+    if (url.pathname === '/health' && request.method === 'GET') return Response.json({ status: 'ok' });
     if (url.pathname === '/telegram/webhook') {
       if (request.method !== 'POST') return Response.json({ error: 'Method not allowed' }, { status: 405 });
       return handleTelegramWebhook(request, env);

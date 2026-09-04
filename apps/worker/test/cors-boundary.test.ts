@@ -16,7 +16,7 @@ describe('Worker boundary', () => {
   it('serves health', async () => {
     const response = await dispatch(new Request('https://worker.example/health'));
     expect(response.status).toBe(200);
-    await expect(response.json()).resolves.toEqual({ ok: true });
+    await expect(response.json()).resolves.toEqual({ status: 'ok' });
   });
   it('allows only the exact configured production origin', async () => {
     const allowed = await dispatch(new Request('https://worker.example/api/send-document', { method: 'OPTIONS', headers: { Origin: env.MINI_APP_ORIGIN } }));

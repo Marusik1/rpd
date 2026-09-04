@@ -143,7 +143,7 @@ npm run deploy:worker
 curl --fail-with-body https://<worker-host>/health
 ```
 
-Ожидаемый ответ: `{"ok":true}`. Публичные endpoints:
+Ожидаемый ответ: `{"status":"ok"}`. Публичные endpoints:
 
 ```text
 GET  https://<worker-host>/health

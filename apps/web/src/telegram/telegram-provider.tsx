@@ -5,6 +5,22 @@ import { createTelegramAdapter, type TelegramAdapter, type TelegramViewport } fr
 
 const Context = createContext<TelegramAdapter | null>(null);
 const px = (value: number) => `${Math.max(0, value)}px`;
+const telegramThemeVariables: Record<string, string> = {
+  bg_color: '--tg-theme-bg-color',
+  text_color: '--tg-theme-text-color',
+  hint_color: '--tg-theme-hint-color',
+  secondary_bg_color: '--tg-theme-secondary-bg-color',
+  button_text_color: '--tg-theme-button-text-color',
+};
+const safeColor = (value: string | undefined): value is string => Boolean(value && /^#[0-9a-f]{6}$/iu.test(value));
+export function applyTelegramTheme(theme: TelegramAdapter['theme']): void {
+  const style = document.documentElement.style;
+  for (const [key, variable] of Object.entries(telegramThemeVariables)) {
+    const value = theme[key];
+    if (safeColor(value)) style.setProperty(variable, value);
+    else style.removeProperty(variable);
+  }
+}
 function applyViewport(value: TelegramViewport): void {
   const style = document.documentElement.style;
   style.setProperty('--tg-viewport-height', px(value.height)); style.setProperty('--tg-viewport-stable-height', px(value.stableHeight));
@@ -15,7 +31,7 @@ function applyViewport(value: TelegramViewport): void {
 export function TelegramProvider({ children }: { children: ReactNode }) {
   const adapter = useMemo(() => createTelegramAdapter() ?? createBrowserAdapter(), []);
   const location = useLocation(); const navigate = useNavigate();
-  useEffect(() => { adapter.initialize(); return adapter.subscribeViewport(applyViewport); }, [adapter]);
+  useEffect(() => { adapter.initialize(); applyTelegramTheme(adapter.theme); return adapter.subscribeViewport(applyViewport); }, [adapter]);
   useEffect(() => adapter.setBackButton(location.pathname !== '/', () => {
     const index = (window.history.state as { idx?: number } | null)?.idx ?? 0;
     if (index > 0) navigate(-1);

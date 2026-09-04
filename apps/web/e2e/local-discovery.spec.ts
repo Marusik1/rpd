@@ -18,6 +18,7 @@ test('global and course search match locally by normalized name and code and rec
   const search = page.getByRole('searchbox', { name: 'Найти дисциплину' });
   await search.fill('  гражданское  ');
   await expect(page.getByRole('link', { name: documentFixture.name })).toBeVisible();
+  await expect(page.getByText('Бакалавриат · 1 курс')).toBeVisible();
   await expect(page.getByRole('link', { name: secondDocument.name })).toBeHidden();
   await search.fill('нет такой дисциплины');
   await expect(page.getByText('Ничего не найдено')).toBeVisible();

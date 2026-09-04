@@ -33,6 +33,7 @@
 .document-copy { min-width: 0; }
 .document-copy strong { display: block; font-size: 13px; line-height: 1.16; }
 .document-copy small { display: block; margin-top: 3px; color: var(--muted); font-size: 11px; }
+.document-copy .document-context { font-size: 10px; line-height: 1.25; }
 .program-card { min-height: 80px; padding: 10px 12px; display: grid; grid-template-columns: 37px minmax(0,1fr) 20px; gap: 10px; align-items: start; }
 .program-card > .icon { color: var(--brand); margin-top: 3px; }
 .program-card h2 { margin: 0 0 9px; font-size: 14px; line-height: 1.2; }
@@ -56,7 +57,7 @@
 .inline-notice.error { color: #a20c16; background: var(--danger-bg); }
 .inline-notice button { margin-left: auto; min-height: 30px; border: 0; background: transparent; color: currentColor; font-weight: 700; }
 .empty-state { margin: 12px 0; padding: 18px 14px; border-radius: var(--radius); background: var(--surface-soft); color: var(--muted); font-size: 13px; text-align: center; }
-.bottom-nav { width: 100%; max-width: 430px; min-height: calc(59px + var(--safe-bottom)); padding: 5px max(var(--page-pad), var(--safe-right)) var(--safe-bottom) max(var(--page-pad), var(--safe-left)); border-top: 1px solid var(--border); background: rgb(255 255 255 / 96%); display: grid; grid-template-columns: repeat(3, 1fr); position: fixed; bottom: 0; z-index: 6; }
+.bottom-nav { width: 100%; max-width: 430px; min-height: calc(59px + var(--safe-bottom)); padding: 5px max(var(--page-pad), var(--safe-right)) var(--safe-bottom) max(var(--page-pad), var(--safe-left)); border-top: 1px solid var(--border); background: rgb(255 255 255 / 96%); display: grid; grid-template-columns: repeat(3, 1fr); position: fixed; left: 50%; bottom: 0; transform: translateX(-50%); z-index: 6; }
 .nav-item { min-height: 52px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; color: #65666a; font-size: 10px; font-weight: 600; }
 .nav-item[aria-current="page"] { color: var(--brand); }
 .tap { transition: transform 170ms ease, opacity 170ms ease; }
