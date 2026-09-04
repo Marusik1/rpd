@@ -11,6 +11,9 @@ test('navigates hash routes from one catalog request', async ({ page }) => {
   await page.getByRole('link', { name: /Гражданское право/ }).click();
   await expect(page).toHaveURL(new RegExp(`#\/document\/${documentFixture.id}$`));
   await expect(page.getByRole('heading', { name: 'Гражданское право' })).toBeVisible();
+  await page.getByRole('link', { name: 'На главную' }).click();
+  await expect(page.getByRole('heading', { name: 'Недавно открытые' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Гражданское право' })).toBeVisible();
   expect(requests).toHaveLength(1);
 });
 
