@@ -1,0 +1,19 @@
+{
+  "name": "@rpd/worker",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "wrangler deploy --dry-run --outdir dist",
+    "lint": "eslint . --max-warnings=0",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@rpd/shared": "*"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20250902.0",
+    "wrangler": "4.129.0"
+  }
+}
