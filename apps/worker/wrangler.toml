@@ -4,3 +4,6 @@ compatibility_date = "2025-09-02"
 
 [vars]
 ENVIRONMENT = "production"
+
+# Configure MINI_APP_URL, MINI_APP_ORIGIN and PUBLIC_CATALOG_URL per environment.
+# Store BOT_TOKEN and TELEGRAM_WEBHOOK_SECRET only with `wrangler secret put`.

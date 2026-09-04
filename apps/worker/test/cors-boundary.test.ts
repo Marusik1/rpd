@@ -2,7 +2,14 @@ import { describe, expect, it, vi } from 'vitest';
 import worker from '../src/index.js';
 import type { Env } from '../src/env.js';
 
-const env: Env = { BOT_TOKEN: 'unused', MINI_APP_ORIGIN: 'https://example.github.io', PUBLIC_CATALOG_URL: 'https://example.github.io/rpd/catalog.json', ENVIRONMENT: 'production' };
+const env: Env = {
+  BOT_TOKEN: 'unused',
+  TELEGRAM_WEBHOOK_SECRET: 'unused',
+  MINI_APP_URL: 'https://example.github.io/rpd/',
+  MINI_APP_ORIGIN: 'https://example.github.io',
+  PUBLIC_CATALOG_URL: 'https://example.github.io/rpd/catalog.json',
+  ENVIRONMENT: 'production',
+};
 const dispatch = (request: Request, customEnv = env) => worker.fetch(request, customEnv);
 
 describe('Worker boundary', () => {

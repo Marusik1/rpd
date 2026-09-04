@@ -1,6 +1,7 @@
 import { allowedOrigin, corsHeaders } from './cors.js';
 import type { Env } from './env.js';
 import { handleSendDocument } from './send-document.js';
+import { handleTelegramWebhook } from './webhook.js';
 
 function withCors(response: Response, origin: string): Response {
   const headers = new Headers(response.headers);
@@ -12,6 +13,10 @@ export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
     if (url.pathname === '/health' && request.method === 'GET') return Response.json({ ok: true });
+    if (url.pathname === '/telegram/webhook') {
+      if (request.method !== 'POST') return Response.json({ error: 'Method not allowed' }, { status: 405 });
+      return handleTelegramWebhook(request, env);
+    }
     if (url.pathname !== '/api/send-document') return Response.json({ error: 'Not found' }, { status: 404 });
 
     const origin = allowedOrigin(request, env);
