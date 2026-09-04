@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
 import { useCatalog } from '../catalog/catalog-provider.js';
+import { DocumentRow, ScreenHeading } from '../components/mobile-ui.js';
 import { useDocumentPreferences } from '../storage/use-document-preferences.js';
-export const FavoritesPage = () => { const { documents } = useCatalog(); const { favoriteIds, toggleFavorite } = useDocumentPreferences(documents); const favorites = favoriteIds.flatMap((id) => documents.filter((document) => document.id === id)); return <section><h1>Избранное</h1>{favorites.length ? <ul>{favorites.map((document) => <li key={document.id}><Link to={`/document/${document.id}`}>{document.name}</Link><button type="button" onClick={() => toggleFavorite(document.id)}>Удалить</button></li>)}</ul> : <p>Пока пусто</p>}</section>; };
-export const ProfilePage = () => <section><h1>Профиль</h1><p>Веб-версия</p></section>;
+export function FavoritesPage() { const { documents } = useCatalog(); const { favoriteIds } = useDocumentPreferences(documents); const favorites = favoriteIds.flatMap((id) => documents.filter((document) => document.id === id)); return <section className="screen"><ScreenHeading title="Избранное" />{favorites.length ? <div className="document-list">{favorites.map((document) => <DocumentRow key={document.id} document={document} />)}</div> : <p className="empty-state">Здесь появятся сохранённые РПД</p>}</section>; }
+export function ProfilePage() { return <section className="screen"><ScreenHeading title="Профиль" /><p className="empty-state">Веб-версия РПД</p></section>; }

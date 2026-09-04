@@ -2,19 +2,9 @@ import { useState } from 'react';
 import { matchesDocumentSearch } from '@rpd/shared';
 import { Link, useParams } from 'react-router-dom';
 import { useCatalog } from '../catalog/catalog-provider.js';
+import { CourseCard, CoursePill, DocumentRow, ProgramCard, ScreenHeading, SearchField } from '../components/mobile-ui.js';
 import { bachelorCourses, documentsForCourse, isMasterProgram, masterCourses, masterPrograms } from '../catalog/selectors.js';
-
-const CourseLinks = ({ prefix, courses }: { prefix: string; courses: readonly number[] }) => <ul>{courses.map((course) => <li key={course}><Link to={`${prefix}/${course}`}>{course} курс</Link></li>)}</ul>;
-export function BachelorPage() { return <section><h1>Бакалавриат</h1><CourseLinks prefix="/bachelor" courses={bachelorCourses} /><Link to="/">На главную</Link></section>; }
-export function MasterPage() { return <section><h1>Магистратура</h1><ul>{masterPrograms.map(({ slug, name }) => <li key={slug}><h2>{name}</h2><CourseLinks prefix={`/master/${slug}`} courses={masterCourses} /></li>)}</ul><Link to="/">На главную</Link></section>; }
-export function CoursePage({ level }: { level: 'bachelor' | 'master' }) {
-  const { course: rawCourse, program } = useParams(); const course = Number(rawCourse); const { documents } = useCatalog();
-  const [query, setQuery] = useState('');
-  const valid = Number.isInteger(course) && (level === 'bachelor' ? bachelorCourses.includes(course as never) : masterCourses.includes(course as never)) && (level === 'bachelor' || isMasterProgram(program));
-  if (!valid) return <NotFound />;
-  const selected = documentsForCourse(documents, level, level === 'master' ? program as never : null, course);
-  const filtered = selected.filter((document) => matchesDocumentSearch(document, query));
-  const back = level === 'bachelor' ? '/bachelor' : '/master';
-  return <section><h1>{course} курс</h1>{selected.length ? <><label htmlFor="course-search">Поиск по дисциплине или коду</label><input id="course-search" type="search" value={query} onChange={(event) => setQuery(event.currentTarget.value)} />{query && <button type="button" onClick={() => setQuery('')}>Очистить</button>}{filtered.length ? <ul>{filtered.map((item) => <li key={item.id}><Link to={`/document/${item.id}`} state={{ back }}>{item.name}</Link>{item.code && <small> {item.code}</small>}</li>)}</ul> : <p role="status">Ничего не найдено</p>}</> : <p>Пока нет загруженных РПД для этого курса</p>}<Link to={back}>Назад</Link> <Link to="/">На главную</Link></section>;
-}
-export function NotFound() { return <section><h1>Страница не найдена</h1><Link to="/">На главную</Link></section>; }
+export function BachelorPage() { return <section className="screen"><ScreenHeading title="Бакалавриат" subtitle="Выберите курс" back="/" /><div className="card-stack">{bachelorCourses.map((course) => <CourseCard key={course} to={`/bachelor/${course}`} course={course} />)}</div></section>; }
+export function MasterPage() { return <section className="screen"><ScreenHeading title="Магистратура" subtitle="Выберите программу" back="/" /><div className="card-stack">{masterPrograms.map(({ slug, name }) => <ProgramCard key={slug} title={name}>{masterCourses.map((course) => <CoursePill key={course} to={`/master/${slug}/${course}`}>{course} курс</CoursePill>)}</ProgramCard>)}</div></section>; }
+export function CoursePage({ level }: { level: 'bachelor' | 'master' }) { const { course: rawCourse, program } = useParams(); const course = Number(rawCourse); const { documents } = useCatalog(); const [query, setQuery] = useState(''); const valid = Number.isInteger(course) && (level === 'bachelor' ? bachelorCourses.includes(course as never) : masterCourses.includes(course as never)) && (level === 'bachelor' || isMasterProgram(program)); if (!valid) return <NotFound />; const selected = documentsForCourse(documents, level, level === 'master' ? program as never : null, course); const filtered = selected.filter((document) => matchesDocumentSearch(document, query)); const back = level === 'bachelor' ? '/bachelor' : '/master'; return <section className="screen"><ScreenHeading title={`${course} курс`} back={back} />{selected.length ? <><SearchField id="course-search" value={query} onChange={setQuery} placeholder="Поиск по курсу" />{filtered.length ? <div className="document-list">{filtered.map((document) => <DocumentRow key={document.id} document={document} state={{ back }} />)}</div> : <p className="empty-state" role="status">Ничего не найдено</p>}</> : <p className="empty-state">Пока нет загруженных РПД для этого курса</p>}</section>; }
+export function NotFound() { return <section className="screen"><ScreenHeading title="Страница не найдена" /><p className="empty-state">Проверьте адрес или вернитесь на главную.</p><Link className="action-button primary" to="/">На главную</Link></section>; }

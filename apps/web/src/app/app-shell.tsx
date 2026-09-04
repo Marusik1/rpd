@@ -1,4 +1,4 @@
 import type { ReactNode } from 'react';
-import { Link } from 'react-router-dom';
+import { BottomNavigation, MobileHeader } from '../components/mobile-ui.js';
 
-export function AppShell({ children }: { children: ReactNode }) { return <div className="app-shell"><header role="banner"><Link to="/">РПД</Link></header><main>{children}</main><nav aria-label="Основная навигация"><Link to="/">Главная</Link><Link to="/favorites">Избранное</Link><Link to="/profile">Профиль</Link></nav></div>; }
+export function AppShell({ children }: { children: ReactNode }) { return <div className="app-shell"><MobileHeader /><main className="app-main">{children}</main><BottomNavigation /></div>; }
