@@ -1,4 +1,5 @@
 import type { Env } from './env.js';
+import { readBoundedBody } from './request-body.js';
 
 const SECRET_HEADER = 'X-Telegram-Bot-Api-Secret-Token';
 const TELEGRAM_API_ROOT = 'https://api.telegram.org';
@@ -70,8 +71,11 @@ export async function handleTelegramWebhook(
 
   let payload: unknown;
   try {
-    payload = await request.json();
-  } catch {
+    payload = JSON.parse(await readBoundedBody(request));
+  } catch (error) {
+    if (error instanceof RangeError) {
+      return Response.json({ error: 'Payload too large' }, { status: 413 });
+    }
     return Response.json({ error: 'Malformed update' }, { status: 400 });
   }
 

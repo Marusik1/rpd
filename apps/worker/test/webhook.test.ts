@@ -60,6 +60,17 @@ describe('Telegram webhook', () => {
     logSpy.mockRestore();
   });
 
+  it('rejects an authenticated webhook body larger than 16 KiB before Telegram is called', async () => {
+    const fetchSpy = vi.spyOn(globalThis, 'fetch');
+    const response = await worker.fetch(
+      webhookRequest(JSON.stringify({ update_id: 1, padding: 'x'.repeat(17 * 1024) }), env.TELEGRAM_WEBHOOK_SECRET),
+      env,
+    );
+    expect(response.status).toBe(413);
+    expect(fetchSpy).not.toHaveBeenCalled();
+    fetchSpy.mockRestore();
+  });
+
   it('answers /start with Russian copy and the configured Web App URL only', async () => {
     const attackerUrl = 'https://attacker.example/';
     const fetchSpy = vi.spyOn(globalThis, 'fetch').mockResolvedValue(Response.json({ ok: true }));

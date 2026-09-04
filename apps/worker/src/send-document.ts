@@ -2,8 +2,8 @@ import type { Env } from './env.js';
 import { CatalogError, findTrustedDocument } from './catalog-client.js';
 import { InitDataError, validateInitData } from './init-data.js';
 import { sendTelegramDocument, TelegramApiError } from './telegram-api.js';
+import { MAX_JSON_BODY_BYTES, readBoundedBody } from './request-body.js';
 
-const MAX_BODY_BYTES = 16 * 1024;
 const DOCUMENT_ID = /^[A-Za-z0-9_-]+$/u;
 
 type Dependencies = { fetcher?: typeof fetch; nowSeconds?: number; nowMilliseconds?: number };
@@ -12,35 +12,11 @@ function json(status: number, body: object): Response {
   return Response.json(body, { status });
 }
 
-async function readBoundedBody(request: Request): Promise<string> {
-  if (!request.body) return '';
-  const reader = request.body.getReader();
-  const chunks: Uint8Array[] = [];
-  let length = 0;
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    length += value.byteLength;
-    if (length > MAX_BODY_BYTES) {
-      await reader.cancel();
-      throw new RangeError('Request body too large');
-    }
-    chunks.push(value);
-  }
-  const body = new Uint8Array(length);
-  let offset = 0;
-  for (const chunk of chunks) {
-    body.set(chunk, offset);
-    offset += chunk.byteLength;
-  }
-  return new TextDecoder('utf-8', { fatal: true, ignoreBOM: false }).decode(body);
-}
-
 export async function handleSendDocument(request: Request, env: Env, dependencies: Dependencies = {}): Promise<Response> {
   const contentType = request.headers.get('Content-Type')?.split(';', 1)[0]?.trim().toLowerCase();
   if (contentType !== 'application/json') return json(415, { error: 'Требуется JSON' });
   const declaredLength = Number(request.headers.get('Content-Length') ?? '0');
-  if (Number.isFinite(declaredLength) && declaredLength > MAX_BODY_BYTES) return json(413, { error: 'Запрос слишком большой' });
+  if (Number.isFinite(declaredLength) && declaredLength > MAX_JSON_BODY_BYTES) return json(413, { error: 'Запрос слишком большой' });
 
   let text: string;
   try {
