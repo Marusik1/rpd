@@ -28,3 +28,23 @@ test('renders direct hash routes and useful stale routes in the shell', async ({
   await page.goto('/#/unknown');
   await expect(page.getByText('Страница не найдена')).toBeVisible();
 });
+
+test('resets a reopened Telegram session once without trapping navigation on home', async ({ page }) => {
+  await page.addInitScript(() => {
+    window.Telegram = {
+      WebApp: {
+        initData: 'telegram-session',
+        ready() {},
+        expand() {},
+        onEvent() {},
+        offEvent() {},
+        BackButton: { show() {}, hide() {}, onClick() {}, offClick() {} },
+      },
+    };
+  });
+  await routeCatalog(page);
+  await page.goto(`/#/document/${documentFixture.id}`);
+  await expect(page).toHaveURL(/#\/$/);
+  await page.locator('a[href$="#/bachelor"]').click();
+  await expect(page).toHaveURL(/#\/bachelor$/);
+});

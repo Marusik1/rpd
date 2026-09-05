@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useMemo, type ReactNode } from 'react';
+import { createContext, useContext, useEffect, useMemo, useRef, type ReactNode } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { createBrowserAdapter } from './browser-adapter.js';
 import { createTelegramAdapter, type TelegramAdapter, type TelegramViewport } from './telegram-adapter.js';
@@ -31,13 +31,15 @@ function applyViewport(value: TelegramViewport): void {
 export function TelegramProvider({ children }: { children: ReactNode }) {
   const adapter = useMemo(() => createTelegramAdapter() ?? createBrowserAdapter(), []);
   const location = useLocation(); const navigate = useNavigate();
+  const navigateRef = useRef(navigate);
+  useEffect(() => { navigateRef.current = navigate; }, [navigate]);
   useEffect(() => { adapter.initialize(); applyTelegramTheme(adapter.theme); return adapter.subscribeViewport(applyViewport); }, [adapter]);
   useEffect(() => {
     if (!adapter.isTelegram) return;
-    const showHome = () => navigate('/', { replace: true });
+    const showHome = () => navigateRef.current('/', { replace: true });
     showHome();
     return adapter.subscribeActivation(showHome);
-  }, [adapter, navigate]);
+  }, [adapter]);
   useEffect(() => adapter.setBackButton(location.pathname !== '/', () => {
     const index = (window.history.state as { idx?: number } | null)?.idx ?? 0;
     if (index > 0) navigate(-1);
