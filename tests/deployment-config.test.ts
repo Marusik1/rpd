@@ -29,7 +29,8 @@ test('Pages workflow runs the complete ordered production chain', async () => {
   assert.match(workflow, /id-token:\s*write/);
   assert.match(workflow, /concurrency:[\s\S]*group:\s*pages/);
   assert.match(workflow, /path:\s*apps\/web\/dist\//);
-  assert.match(workflow, /VITE_WORKER_URL:\s*\$\{\{\s*vars\.VITE_WORKER_URL\s*\}\}/);
+  assert.match(workflow, /VITE_WORKER_URL:\s*\$\{\{\s*vars\.VITE_WORKER_URL/);
+  assert.match(workflow, /https:\/\/[^\s'"]+\.workers\.dev/);
   assert.match(workflow, /VITE_BASE_PATH:[^\n]*github\.event\.repository\.name/);
   assert.doesNotMatch(workflow, /secrets\.(?:BOT_TOKEN|TELEGRAM_WEBHOOK_SECRET)/);
 });

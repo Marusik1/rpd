@@ -39,7 +39,7 @@ jobs:
         run: npm run build
         env:
           VITE_BASE_PATH: ${{ vars.VITE_BASE_PATH || format('/{0}/', github.event.repository.name) }}
-          VITE_WORKER_URL: ${{ vars.VITE_WORKER_URL }}
+          VITE_WORKER_URL: ${{ vars.VITE_WORKER_URL || 'https://rpd-telegram-bot.m4rus-rpd.workers.dev' }}
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact
