@@ -8,10 +8,12 @@ export type TelegramViewport = {
 };
 
 export interface TelegramAdapter {
+  readonly isTelegram: boolean;
   readonly initData: string;
   readonly theme: TelegramTheme;
   initialize(): void;
   subscribeViewport(listener: (viewport: TelegramViewport) => void): () => void;
+  subscribeActivation(listener: () => void): () => void;
   setBackButton(visible: boolean, listener: () => void): () => void;
   openLink(url: string): boolean;
   notify(kind: 'success' | 'error'): void;
@@ -53,7 +55,7 @@ export function createTelegramAdapter(): TelegramAdapter | null {
   const webApp = window.Telegram?.WebApp;
   if (!webApp) return null;
   return {
-    initData: webApp.initData ?? '', theme: webApp.themeParams ?? {},
+    isTelegram: true, initData: webApp.initData ?? '', theme: webApp.themeParams ?? {},
     initialize() { webApp.ready?.(); webApp.expand?.(); },
     subscribeViewport(listener) {
       const update = () => listener(readTelegramViewport(webApp));
@@ -61,6 +63,10 @@ export function createTelegramAdapter(): TelegramAdapter | null {
       window.visualViewport?.addEventListener('resize', update);
       update();
       return () => { webApp.offEvent?.('viewportChanged', update); window.visualViewport?.removeEventListener('resize', update); };
+    },
+    subscribeActivation(listener) {
+      webApp.onEvent?.('activated', listener);
+      return () => webApp.offEvent?.('activated', listener);
     },
     setBackButton(visible, listener) {
       if (!webApp.BackButton) return () => undefined;

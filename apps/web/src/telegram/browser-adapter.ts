@@ -7,8 +7,9 @@ function viewport(): TelegramViewport {
 
 export function createBrowserAdapter(): TelegramAdapter {
   return {
-    initData: '', theme: {}, initialize() {},
+    isTelegram: false, initData: '', theme: {}, initialize() {},
     subscribeViewport(listener) { const update = () => listener(viewport()); window.visualViewport?.addEventListener('resize', update); window.addEventListener('resize', update); update(); return () => { window.visualViewport?.removeEventListener('resize', update); window.removeEventListener('resize', update); }; },
+    subscribeActivation() { return () => undefined; },
     setBackButton() { return () => undefined; },
     openLink() { return false; },
     notify() {},

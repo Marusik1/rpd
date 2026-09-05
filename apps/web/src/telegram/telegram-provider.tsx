@@ -32,6 +32,12 @@ export function TelegramProvider({ children }: { children: ReactNode }) {
   const adapter = useMemo(() => createTelegramAdapter() ?? createBrowserAdapter(), []);
   const location = useLocation(); const navigate = useNavigate();
   useEffect(() => { adapter.initialize(); applyTelegramTheme(adapter.theme); return adapter.subscribeViewport(applyViewport); }, [adapter]);
+  useEffect(() => {
+    if (!adapter.isTelegram) return;
+    const showHome = () => navigate('/', { replace: true });
+    showHome();
+    return adapter.subscribeActivation(showHome);
+  }, [adapter, navigate]);
   useEffect(() => adapter.setBackButton(location.pathname !== '/', () => {
     const index = (window.history.state as { idx?: number } | null)?.idx ?? 0;
     if (index > 0) navigate(-1);
