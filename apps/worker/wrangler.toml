@@ -4,9 +4,9 @@ compatibility_date = "2025-09-02"
 
 [vars]
 ENVIRONMENT = "production"
-MINI_APP_URL = "https://your-user.github.io/your-repository/"
-MINI_APP_ORIGIN = "https://your-user.github.io"
-PUBLIC_CATALOG_URL = "https://your-user.github.io/your-repository/catalog.json"
+MINI_APP_URL = "https://marusik1.github.io/rpd/"
+MINI_APP_ORIGIN = "https://marusik1.github.io"
+PUBLIC_CATALOG_URL = "https://marusik1.github.io/rpd/catalog.json"
 
 # Replace the public placeholders above before deployment. Production CORS
 # accepts only MINI_APP_ORIGIN exactly; a wildcard is never supported.
