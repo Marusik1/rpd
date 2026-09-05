@@ -4,10 +4,11 @@
   font-synthesis: none;
   --brand: #e50914;
   --brand-pressed: #c90812;
-  --ink: var(--tg-theme-text-color, #111113);
-  --muted: var(--tg-theme-hint-color, #6f7075);
-  --surface: var(--tg-theme-bg-color, #fff);
-  --surface-soft: var(--tg-theme-secondary-bg-color, #f6f6f8);
+  /* Telegram colors never replace the approved light brand palette. */
+  --ink: #111113;
+  --muted: #6f7075;
+  --surface: #fff;
+  --surface-soft: #f6f6f8;
   --border: #e6e6e9;
   --success: #178c45;
   --success-bg: #dff5e6;
