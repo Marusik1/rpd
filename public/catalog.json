@@ -1,4 +1,2035 @@
 {
   "version": 1,
-  "documents": []
+  "documents": [
+    {
+      "id": "master-business-legal-support-1-31f8e33ba079",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "ФТД.01",
+      "name": "Права человека в Российской Федерации",
+      "filename": "ФТД.01 Права человека в Российской Федерации (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/ФТД.01 Права человека в Российской Федерации (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-4a4cffa90ba4",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "ФТД.01",
+      "name": "Права человека в Российской Федерации",
+      "filename": "ФТД.01 Права человека в Российской Федерации (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/ФТД.01 Права человека в Российской Федерации (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-1e2364367d4c",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "ФТД.01",
+      "name": "Права человека в Российской Федерации",
+      "filename": "ФТД.01 Права человека в Российской Федерации (РПД).pdf",
+      "path": "documents/master/corporate-law/2/ФТД.01 Права человека в Российской Федерации (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-15c4e598020b",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.В.01",
+      "name": "Административная ответственность",
+      "filename": "Б1.В.01 Административная ответственность (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.В.01 Административная ответственность (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-9375d27c0be6",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.В.01",
+      "name": "Иностранный язык в правоведении",
+      "filename": "Б1.В.01 Иностранный язык в правоведении (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.В.01 Иностранный язык в правоведении (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-c0de21ae67be",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.В.01",
+      "name": "Иностранный язык в правоведении",
+      "filename": "Б1.В.01 Иностранный язык в правоведении (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.В.01 Иностранный язык в правоведении (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-375275aa9fb8",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "ФТД.ДВ.01.01",
+      "name": "Правовая статистика",
+      "filename": "ФТД.ДВ.01.01 Правовая статистика РПД.pdf",
+      "path": "documents/master/business-legal-support/2/ФТД.ДВ.01.01 Правовая статистика РПД.pdf"
+    },
+    {
+      "id": "master-corporate-law-2-e73183161870",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "ФТД.ДВ.01.01",
+      "name": "Правовая статистика",
+      "filename": "ФТД.ДВ.01.01 Правовая статистика РПД.pdf",
+      "path": "documents/master/corporate-law/2/ФТД.ДВ.01.01 Правовая статистика РПД.pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-d12bf502d9c0",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "ФТД.ДВ.01.01",
+      "name": "Правовая статистика РПД_ИТОГ",
+      "filename": "ФТД.ДВ.01.01 Правовая статистика РПД_ИТОГ.pdf",
+      "path": "documents/master/business-legal-support/1/ФТД.ДВ.01.01 Правовая статистика РПД_ИТОГ.pdf"
+    },
+    {
+      "id": "master-corporate-law-1-f58a0b368d38",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "ФТД.ДВ.01.01",
+      "name": "Правовая статистика РПД_ИТОГ",
+      "filename": "ФТД.ДВ.01.01 Правовая статистика РПД_ИТОГ.pdf",
+      "path": "documents/master/corporate-law/1/ФТД.ДВ.01.01 Правовая статистика РПД_ИТОГ.pdf"
+    },
+    {
+      "id": "bachelor-1-d4d8cca56e26",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.01",
+      "name": "Философия",
+      "filename": "Б1.О.01 Философия (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.01 Философия (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-7556b7c0649b",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.О.01",
+      "name": "Философия",
+      "filename": "Б1.О.01 Философия (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.О.01 Философия (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-086555932e05",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.О.01",
+      "name": "Философия права",
+      "filename": "Б1.О.01 Философия права (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.О.01 Философия права (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-3de6e1f2168d",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.О.01",
+      "name": "Философия права",
+      "filename": "Б1.О.01 Философия права (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.О.01 Философия права (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-22f5c6c8794b",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "Б1.В.ДВ.01.01",
+      "name": "Правовое обеспечение корпоративного управления",
+      "filename": "Б1.В.ДВ.01.01 Правовое обеспечение корпоративного управления (РПД).pdf",
+      "path": "documents/master/corporate-law/2/Б1.В.ДВ.01.01 Правовое обеспечение корпоративного управления (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-382bfb439e93",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.В.ДВ.01.01",
+      "name": "Правовое обеспечение корпоративного управления и контроля в коммерческих корпорациях",
+      "filename": "Б1.В.ДВ.01.01 Правовое обеспечение корпоративного управления и контроля в коммерческих корпорациях (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.В.ДВ.01.01 Правовое обеспечение корпоративного управления и контроля в коммерческих корпорациях (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-c2bc315e8644",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.В.ДВ.01.01",
+      "name": "Правовое регулирование торговой и закупочной деятельности",
+      "filename": "Б1.В.ДВ.01.01 Правовое регулирование торговой и закупочной деятельности (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.В.ДВ.01.01 Правовое регулирование торговой и закупочной деятельности (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-6c3b38856b27",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.ДВ.01.01",
+      "name": "Правовое регулирование торговой и закупочной деятельности",
+      "filename": "Б1.В.ДВ.01.01 Правовое регулирование торговой и закупочной деятельности (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.ДВ.01.01 Правовое регулирование торговой и закупочной деятельности (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-60c3c66cc6b9",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.В.ДВ.01.02",
+      "name": "Антимонопольное регулирование создания и деятельности корпораций",
+      "filename": "Б1.В.ДВ.01.02 Антимонопольное регулирование создания и деятельности корпораций (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.В.ДВ.01.02 Антимонопольное регулирование создания и деятельности корпораций (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-130d651c3db6",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "Б1.В.ДВ.01.02",
+      "name": "Антимонопольное регулирование создания и деятельности корпораций",
+      "filename": "Б1.В.ДВ.01.02 Антимонопольное регулирование создания и деятельности корпораций (РПД).pdf",
+      "path": "documents/master/corporate-law/2/Б1.В.ДВ.01.02 Антимонопольное регулирование создания и деятельности корпораций (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-654a94aa0841",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.В.ДВ.01.02",
+      "name": "Инвестиционное право",
+      "filename": "Б1.В.ДВ.01.02 Инвестиционное право (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.В.ДВ.01.02 Инвестиционное право (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-ec831682b326",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.ДВ.01.02",
+      "name": "Инвестиционное право",
+      "filename": "Б1.В.ДВ.01.02 Инвестиционное право (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.ДВ.01.02 Инвестиционное право (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-7349c82e1236",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.ДВ.01.03",
+      "name": "Правовое обеспечение управления персоналом",
+      "filename": "Б1.В.ДВ.01.03 Правовое обеспечение управления персоналом (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.ДВ.01.03 Правовое обеспечение управления персоналом (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-965a9f3edc6a",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.В.ДВ.01.03",
+      "name": "Правовое обеспечение управления персоналом (РПД)_ИТОГ",
+      "filename": "Б1.В.ДВ.01.03 Правовое обеспечение управления персоналом (РПД)_ИТОГ.pdf",
+      "path": "documents/master/business-legal-support/1/Б1.В.ДВ.01.03 Правовое обеспечение управления персоналом (РПД)_ИТОГ.pdf"
+    },
+    {
+      "id": "bachelor-3-bf210d5a8243",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.В.ДВ.01.10",
+      "name": "Банкротство хозяйствующих субъектов",
+      "filename": "Б1.В.ДВ.01.10 Банкротство хозяйствующих субъектов (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.В.ДВ.01.10 Банкротство хозяйствующих субъектов (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-321dc188a9e1",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.В.ДВ.01.10",
+      "name": "Корпоративное право",
+      "filename": "Б1.В.ДВ.01.10 Корпоративное право (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.В.ДВ.01.10 Корпоративное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-8a73279c6acd",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.В.02",
+      "name": "Банковское право",
+      "filename": "Б1.В.02 Банковское право (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.В.02 Банковское право (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-146145581e17",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "ФТД.ДВ.01.02",
+      "name": "Интерпретация социологических данных в правоприменительном процессе",
+      "filename": "ФТД.ДВ.01.02 Интерпретация социологических данных в правоприменительном процессе (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/ФТД.ДВ.01.02 Интерпретация социологических данных в правоприменительном процессе (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-f5730ea2e064",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "ФТД.ДВ.01.02",
+      "name": "Интерпретация социологических данных в правоприменительном процессе",
+      "filename": "ФТД.ДВ.01.02 Интерпретация социологических данных в правоприменительном процессе (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/ФТД.ДВ.01.02 Интерпретация социологических данных в правоприменительном процессе (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-4026ce382f6f",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "ФТД.ДВ.01.02",
+      "name": "Интерпретация социологических данных в правоприменительном процессе",
+      "filename": "ФТД.ДВ.01.02 Интерпретация социологических данных в правоприменительном процессе (РПД).pdf",
+      "path": "documents/master/corporate-law/1/ФТД.ДВ.01.02 Интерпретация социологических данных в правоприменительном процессе (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-0cde75cb3ebc",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "ФТД.ДВ.01.02",
+      "name": "Интерпретация социологических данных в правоприменительном процессе",
+      "filename": "ФТД.ДВ.01.02 Интерпретация социологических данных в правоприменительном процессе (РПД).pdf",
+      "path": "documents/master/corporate-law/2/ФТД.ДВ.01.02 Интерпретация социологических данных в правоприменительном процессе (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-abd11db6ca6b",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.02",
+      "name": "История России",
+      "filename": "Б1.О.02 История России (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.02 История России (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-1d2112b680b7",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.В.02",
+      "name": "ОУДЮ (корпоративное право) (РПД) ИТОГ",
+      "filename": "Б1.В.02 ОУДЮ (корпоративное право) (РПД) ИТОГ.pdf",
+      "path": "documents/master/corporate-law/1/Б1.В.02 ОУДЮ (корпоративное право) (РПД) ИТОГ.pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-e623e52f0e40",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.В.02",
+      "name": "ОУДЮ (РПД) ИТОГ",
+      "filename": "Б1.В.02 ОУДЮ (РПД) ИТОГ.pdf",
+      "path": "documents/master/business-legal-support/1/Б1.В.02 ОУДЮ (РПД) ИТОГ.pdf"
+    },
+    {
+      "id": "bachelor-1-ba394ccdf544",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "ФТД.В.ДВ.01.02",
+      "name": "Права человека",
+      "filename": "ФТД.В.ДВ.01.02 Права человека (РПД).pdf",
+      "path": "documents/bachelor/1/ФТД.В.ДВ.01.02 Права человека (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-890c8989a38e",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.О.02",
+      "name": "Современные правовые учения",
+      "filename": "Б1.О.02 Современные правовые учения (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.О.02 Современные правовые учения (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-9b531086f526",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.О.02",
+      "name": "Современные правовые учения",
+      "filename": "Б1.О.02 Современные правовые учения (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.О.02 Современные правовые учения (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-559bdaf051d7",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.ДВ.02.01",
+      "name": "Налогообложение бизнеса",
+      "filename": "Б1.В.ДВ.02.01 Налогообложение бизнеса (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.ДВ.02.01 Налогообложение бизнеса (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-01be8bd99ff5",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "Б1.В.ДВ.02.01",
+      "name": "Сделки с крупными пакетами акций",
+      "filename": "Б1.В.ДВ.02.01 Сделки с крупными пакетами акций (РПД).pdf",
+      "path": "documents/master/corporate-law/2/Б1.В.ДВ.02.01 Сделки с крупными пакетами акций (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-7fb63647a996",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.ДВ.02.02",
+      "name": "Информационное обеспечение предпринимательской деятельности",
+      "filename": "Б1.В.ДВ.02.02 Информационное обеспечение предпринимательской деятельности (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.ДВ.02.02 Информационное обеспечение предпринимательской деятельности (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-0b715983e446",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "Б1.В.ДВ.02.02",
+      "name": "Особенности регулирования труда руководителей корпораций",
+      "filename": "Б1.В.ДВ.02.02 Особенности регулирования труда руководителей корпораций (РПД).pdf",
+      "path": "documents/master/corporate-law/2/Б1.В.ДВ.02.02 Особенности регулирования труда руководителей корпораций (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-1a17964698d6",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.ДВ.02.03",
+      "name": "Процесс особ рассм дел о несост банк",
+      "filename": "Б1.В.ДВ.02.03 Процесс особ рассм дел о несост банк (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.ДВ.02.03 Процесс особ рассм дел о несост банк (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-3ae35b12f158",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.В.ДВ.02.10",
+      "name": "Гос контр и надз в сфере пред деят",
+      "filename": "Б1.В.ДВ.02.10 Гос контр и надз в сфере пред деят (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.В.ДВ.02.10 Гос контр и надз в сфере пред деят (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-977366c4d911",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.В.ДВ.02.10",
+      "name": "Государственный контроль и надзор в сфере предпринимательской деятельности",
+      "filename": "Б1.В.ДВ.02.10 Государственный контроль и надзор в сфере предпринимательской деятельности (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.В.ДВ.02.10 Государственный контроль и надзор в сфере предпринимательской деятельности (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-724b45988f9f",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.В.03",
+      "name": "Банковское право",
+      "filename": "Б1.В.03 Банковское право (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.В.03 Банковское право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-5-1c6e63ea2a1e",
+      "level": "bachelor",
+      "program": null,
+      "course": 5,
+      "code": "Б1.В.03",
+      "name": "Банковское право",
+      "filename": "Б1.В.03 Банковское право (РПД).pdf",
+      "path": "documents/bachelor/5/Б1.В.03 Банковское право (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-6bc364c2dda3",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.В.03",
+      "name": "Государственное регулирование и саморегулирование предпринимательской деятельности",
+      "filename": "Б1.В.03 Государственное регулирование и саморегулирование предпринимательской деятельности (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.В.03 Государственное регулирование и саморегулирование предпринимательской деятельности (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-6a8a4c29361e",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.В.03",
+      "name": "Корпоративно-правовые формы организации бизнеса",
+      "filename": "Б1.В.03 Корпоративно-правовые формы организации бизнеса (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.В.03 Корпоративно-правовые формы организации бизнеса (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-5ce60fbcfec4",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.03",
+      "name": "Основы российской государственности",
+      "filename": "Б1.О.03 Основы российской государственности (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.03 Основы российской государственности (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-ab26eaad106f",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.О.03",
+      "name": "Сравнительное правоведение",
+      "filename": "Б1.О.03 Сравнительное правоведение (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.О.03 Сравнительное правоведение (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-20677ef687c7",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "Б1.О.03",
+      "name": "Сравнительное правоведение",
+      "filename": "Б1.О.03 Сравнительное правоведение (РПД).pdf",
+      "path": "documents/master/corporate-law/2/Б1.О.03 Сравнительное правоведение (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-ff8ee9d1fa29",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "Б1.В.ДВ.03.01",
+      "name": "Корпоративные ценные бумаги",
+      "filename": "Б1.В.ДВ.03.01 Корпоративные ценные бумаги (РПД).pdf",
+      "path": "documents/master/corporate-law/2/Б1.В.ДВ.03.01 Корпоративные ценные бумаги (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-23d081de27ce",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.ДВ.03.01",
+      "name": "Рынок ценных бумаг и коллективных инвестиций",
+      "filename": "Б1.В.ДВ.03.01 Рынок ценных бумаг и коллективных инвестиций (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.ДВ.03.01 Рынок ценных бумаг и коллективных инвестиций (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-7634e20499b3",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.ДВ.03.02",
+      "name": "Антимон. регулир. предприним. деят-ти и защита конкур",
+      "filename": "Б1.В.ДВ.03.02 Антимон. регулир. предприним. деят-ти и защита конкур (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.ДВ.03.02 Антимон. регулир. предприним. деят-ти и защита конкур (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-e95b27c943d5",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "Б1.В.ДВ.03.02",
+      "name": "Налоговое регулир деятельности корп",
+      "filename": "Б1.В.ДВ.03.02 Налоговое регулир деятельности корп (РПД).pdf",
+      "path": "documents/master/corporate-law/2/Б1.В.ДВ.03.02 Налоговое регулир деятельности корп (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-5fdd736e04aa",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.ДВ.03.03",
+      "name": "Недействительность сделок в процедурах банкротства",
+      "filename": "Б1.В.ДВ.03.03 Недействительность сделок в процедурах банкротства (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.ДВ.03.03 Недействительность сделок в процедурах банкротства (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-b8604254967c",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.В.ДВ.03.10",
+      "name": "Банкротство хозяйствующих субъектов",
+      "filename": "Б1.В.ДВ.03.10 Банкротство хозяйствующих субъектов (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.В.ДВ.03.10 Банкротство хозяйствующих субъектов (РПД).pdf"
+    },
+    {
+      "id": "bachelor-5-1f261485b6b3",
+      "level": "bachelor",
+      "program": null,
+      "course": 5,
+      "code": "Б1.В.ДВ.03.10",
+      "name": "Банкротство хозяйствующих субъектов",
+      "filename": "Б1.В.ДВ.03.10 Банкротство хозяйствующих субъектов (РПД).pdf",
+      "path": "documents/bachelor/5/Б1.В.ДВ.03.10 Банкротство хозяйствующих субъектов (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-1b91c9b6e235",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.В.04",
+      "name": "Административное судопроизводство",
+      "filename": "Б1.В.04 Административное судопроизводство (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.В.04 Административное судопроизводство (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-d9ae10684c1b",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.О.04",
+      "name": "Актуальные проблемы права и правоприменения",
+      "filename": "Б1.О.04 Актуальные проблемы права и правоприменения (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.О.04 Актуальные проблемы права и правоприменения (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-bb058ba30bf3",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.О.04",
+      "name": "Актуальные проблемы права и правоприменения",
+      "filename": "Б1.О.04 Актуальные проблемы права и правоприменения (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.О.04 Актуальные проблемы права и правоприменения (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-09ef6727d2ee",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.04",
+      "name": "История государства и права России",
+      "filename": "Б1.О.04 История государства и права России (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.04 История государства и права России (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-c72e64058068",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.В.04",
+      "name": "Правовое обеспечение цифровой экономики",
+      "filename": "Б1.В.04 Правовое обеспечение цифровой экономики (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.В.04 Правовое обеспечение цифровой экономики (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-421c13619f2b",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "ФТД.В.ДВ.01.04",
+      "name": "Практикум по подготовке и написанию курсовых работ",
+      "filename": "ФТД.В.ДВ.01.04 Практикум по подготовке и написанию курсовых работ (РПД).pdf",
+      "path": "documents/bachelor/1/ФТД.В.ДВ.01.04 Практикум по подготовке и написанию курсовых работ (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-59c1e3911217",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.В.04",
+      "name": "Рассмотрение корпорат споров",
+      "filename": "Б1.В.04 Рассмотрение корпорат споров (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.В.04 Рассмотрение корпорат споров (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-9d7f7cf971ca",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.ДВ.04.01",
+      "name": "Адм.ответственность в области предп деятельности",
+      "filename": "Б1.В.ДВ.04.01 Адм.ответственность в области предп деятельности (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.ДВ.04.01 Адм.ответственность в области предп деятельности (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-0ff9f390b500",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "Б1.В.ДВ.04.01",
+      "name": "Организационно-правовые модели некоммерческих корпораций",
+      "filename": "Б1.В.ДВ.04.01 Организационно-правовые модели некоммерческих корпораций (РПД).pdf",
+      "path": "documents/master/corporate-law/2/Б1.В.ДВ.04.01 Организационно-правовые модели некоммерческих корпораций (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-ffa7b205e0bd",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "Б1.В.ДВ.04.02",
+      "name": "Оценка правовых рисков",
+      "filename": "Б1.В.ДВ.04.02 Оценка правовых рисков РПД.pdf",
+      "path": "documents/master/corporate-law/2/Б1.В.ДВ.04.02 Оценка правовых рисков РПД.pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-136abef2fdf8",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.ДВ.04.02",
+      "name": "Судебная защита предп деятельности",
+      "filename": "Б1.В.ДВ.04.02 Судебная защита предп деятельности (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.ДВ.04.02 Судебная защита предп деятельности (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-ec22656e69a0",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.ДВ.04.03",
+      "name": "Трансграничное банкротство",
+      "filename": "Б1.В.ДВ.04.03 Трансграничное банкротство (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.ДВ.04.03 Трансграничное банкротство (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-1c2192647352",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.В.ДВ.04.10",
+      "name": "Практикум по правовому сопровожд. природопользования",
+      "filename": "Б1.В.ДВ.04.10 Практикум по правовому сопровожд. природопользования (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.В.ДВ.04.10 Практикум по правовому сопровожд. природопользования (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-275bef56d5ca",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.В.05",
+      "name": "Жилищное право",
+      "filename": "Б1.В.05 Жилищное право (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.В.05 Жилищное право (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-90e91d34ef3f",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.О.05",
+      "name": "Инф-технологич обесп юр деят",
+      "filename": "Б1.О.05 Инф-технологич обесп юр деят (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.О.05 Инф-технологич обесп юр деят (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-fc3ed75f0de3",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.О.05",
+      "name": "Инф-технологич обесп юрид деят",
+      "filename": "Б1.О.05 Инф-технологич обесп  юрид деят (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.О.05 Инф-технологич обесп  юрид деят (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-8de6a44ee5a4",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.05",
+      "name": "История государства и права зарубежных стран",
+      "filename": "Б1.О.05 История государства и права зарубежных стран (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.05 История государства и права зарубежных стран (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-aef7e046bc87",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.В.05",
+      "name": "Конкурентное право",
+      "filename": "Б1.В.05 Конкурентное право (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.В.05 Конкурентное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-5-faba06ae07aa",
+      "level": "bachelor",
+      "program": null,
+      "course": 5,
+      "code": "Б1.В.05",
+      "name": "Конкурентное право",
+      "filename": "Б1.В.05 Конкурентное право (РПД).pdf",
+      "path": "documents/bachelor/5/Б1.В.05 Конкурентное право (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-5a8c8c29fa6f",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.В.05",
+      "name": "Создание, реорганизация и ликвидация корпораций",
+      "filename": "Б1.В.05 Создание, реорганизация и ликвидация корпораций (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.В.05 Создание, реорганизация и ликвидация корпораций (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-b11280993432",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.В.05",
+      "name": "Субъекты предпринимательской деятельности",
+      "filename": "Б1.В.05 Субъекты предпринимательской деятельности (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.В.05 Субъекты предпринимательской деятельности (РПД).pdf"
+    },
+    {
+      "id": "bachelor-5-eb115823e0b3",
+      "level": "bachelor",
+      "program": null,
+      "course": 5,
+      "code": "Б1.В.ДВ.05.10",
+      "name": "Практикум по правовому сопровождению",
+      "filename": "Б1.В.ДВ.05.10 Практикум по правовому сопровождению (РПД).pdf",
+      "path": "documents/bachelor/5/Б1.В.ДВ.05.10 Практикум по правовому сопровождению (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-56fa5be72174",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.В.ДВ.05.10",
+      "name": "Практикум по правовому сопровождению организации и осущ-ю торг. д-ти",
+      "filename": "Б1.В.ДВ.05.10 Практикум по правовому сопровождению организации и осущ-ю торг. д-ти (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.В.ДВ.05.10 Практикум по правовому сопровождению организации и осущ-ю торг. д-ти (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-01dc72e3f9d5",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.В.06",
+      "name": "Договоры в корпоративном праве",
+      "filename": "Б1.В.06 Договоры в корпоративном праве (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.В.06 Договоры в корпоративном праве (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-0958505d3fe6",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.В.06",
+      "name": "Жилищное право",
+      "filename": "Б1.В.06 Жилищное право (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.В.06 Жилищное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-6d4ba4cb62ab",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.06",
+      "name": "Иностранный язык",
+      "filename": "Б1.О.06 Иностранный язык  (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.06 Иностранный язык  (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-15d0af123b38",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.В.06",
+      "name": "Право интеллектуальной собственности",
+      "filename": "Б1.В.06 Право интеллектуальной собственности (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.В.06 Право интеллектуальной собственности (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-81cc9d04cbd3",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.В.06",
+      "name": "Право интеллектуальной собственности",
+      "filename": "Б1.В.06 Право интеллектуальной собственности (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.В.06 Право интеллектуальной собственности (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-cb421fe51114",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.О.06",
+      "name": "Техника юридического письма",
+      "filename": "Б1.О.06 Техника юридического письма (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.О.06 Техника юридического письма (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-33a3300fd68c",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.О.06",
+      "name": "Техника юридического письма",
+      "filename": "Б1.О.06 Техника юридического письма (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.О.06 Техника юридического письма (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-f79fb1c27288",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.В.06.01",
+      "name": "Антикриминальная безопасность предпринимательской деятельности",
+      "filename": "Б1.В.06.01 Антикриминальная безопасность предпринимательской деятельности (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.В.06.01 Антикриминальная безопасность предпринимательской деятельности (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-6b9cca2fc7d2",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.В.06.02",
+      "name": "Криминалистич. сопровождение предпринимательской деятельности",
+      "filename": "Б1.В.06.02 Криминалистич. сопровождение предпринимательской деятельности(РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.В.06.02 Криминалистич. сопровождение предпринимательской деятельности(РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-e1faa032d84b",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.В.ДВ.06.10",
+      "name": "Корпоративное право",
+      "filename": "Б1.В.ДВ.06.10 Корпоративное право (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.В.ДВ.06.10 Корпоративное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-261af9c5913d",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.07",
+      "name": "Иностранный язык в сфере юриспруденции",
+      "filename": "Б1.О.07 Иностранный язык в сфере юриспруденции (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.07 Иностранный язык в сфере юриспруденции (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-1863d20106dd",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.В.07",
+      "name": "Право интеллектуальной собственности",
+      "filename": "Б1.В.07 Право интеллектуальной собственности(РПД).pdf",
+      "path": "documents/bachelor/4/Б1.В.07 Право интеллектуальной собственности(РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-bbe29de7a2c9",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.В.07",
+      "name": "Способы защиты прав участников корпораций",
+      "filename": "Б1.В.07 Способы защиты прав участников корпораций (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.В.07 Способы защиты прав участников корпораций (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-bbbe229c76e4",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "Б1.В.07",
+      "name": "Способы защиты прав участников корпораций",
+      "filename": "Б1.В.07 Способы защиты прав участников корпораций (РПД).pdf",
+      "path": "documents/master/corporate-law/2/Б1.В.07 Способы защиты прав участников корпораций (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-d538ad25465c",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.В.07",
+      "name": "Теория и практика применения банковского законодательства",
+      "filename": "Б1.В.07 Теория и практика применения банковского законодательства (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.В.07 Теория и практика применения банковского законодательства (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-384dfedee7c3",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.07",
+      "name": "Теория и практика применения банковского законодательства",
+      "filename": "Б1.В.07 Теория и практика применения банковского законодательства (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.07 Теория и практика применения банковского законодательства (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-635688a7282f",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.08",
+      "name": "Безопасность жизнедеятельности",
+      "filename": "Б1.О.08 Безопасность жизнедеятельности (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.08 Безопасность жизнедеятельности (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-64b886bba9c4",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.О.08",
+      "name": "Безопасность жизнедеятельности",
+      "filename": "Б1.О.08 Безопасность жизнедеятельности (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.О.08 Безопасность жизнедеятельности (РПД).pdf"
+    },
+    {
+      "id": "bachelor-5-4cf011622fe7",
+      "level": "bachelor",
+      "program": null,
+      "course": 5,
+      "code": "Б1.В.08",
+      "name": "Право интеграционных объединений",
+      "filename": "Б1.В.08 Право интеграционных объединений (РПД).pdf",
+      "path": "documents/bachelor/5/Б1.В.08 Право интеграционных объединений (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-0c75d56188f4",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.В.08",
+      "name": "Правовое регулирование банкротства",
+      "filename": "Б1.В.08 Правовое регулирование банкротства (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.В.08 Правовое регулирование банкротства (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-849055201e4d",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.08",
+      "name": "Правовое регулирование банкротства",
+      "filename": "Б1.В.08 Правовое регулирование банкротства (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.08 Правовое регулирование банкротства (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-c71bef6216ed",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.В.08",
+      "name": "Правовой режим имущества корпораций",
+      "filename": "Б1.В.08 Правовой режим имущества корпораций (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.В.08 Правовой режим имущества корпораций (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-5a8449456152",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "Б1.В.08",
+      "name": "Правовой режим имущества корпораций",
+      "filename": "Б1.В.08 Правовой режим имущества корпораций (РПД).pdf",
+      "path": "documents/master/corporate-law/2/Б1.В.08 Правовой режим имущества корпораций (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-87508f05835a",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.В.09",
+      "name": "Сравнительное корпоративное право",
+      "filename": "Б1.В.09 Сравнительное корпоративное право (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.В.09 Сравнительное корпоративное право (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-2adbb2f6d5f3",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "Б1.В.09",
+      "name": "Сравнительное корпоративное право",
+      "filename": "Б1.В.09 Сравнительное корпоративное право (РПД).pdf",
+      "path": "documents/master/corporate-law/2/Б1.В.09 Сравнительное корпоративное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-dce9971d5f37",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.09",
+      "name": "Теория государства и права",
+      "filename": "Б1.О.09 Теория государства и права (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.09 Теория государства и права (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-c8e8045fae06",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.В.09",
+      "name": "Экспертиза в судопроизводстве",
+      "filename": "Б1.В.09 Экспертиза в судопроизводстве (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.В.09 Экспертиза в судопроизводстве (РПД).pdf"
+    },
+    {
+      "id": "bachelor-5-0c42c43e4961",
+      "level": "bachelor",
+      "program": null,
+      "course": 5,
+      "code": "Б1.В.09",
+      "name": "Экспертиза в судопроизводстве",
+      "filename": "Б1.В.09 Экспертиза в судопроизводстве (РПД).pdf",
+      "path": "documents/bachelor/5/Б1.В.09 Экспертиза в судопроизводстве (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-d8085d67fefa",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.В.09",
+      "name": "Юридическая психология",
+      "filename": "Б1.В.09 Юридическая психология (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.В.09 Юридическая психология (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-5c9506d367af",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.В.09",
+      "name": "Юридическая психология",
+      "filename": "Б1.В.09 Юридическая психология (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.В.09 Юридическая психология (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-11ec397fe76e",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.В.09.01",
+      "name": "Предпринимательские договоры",
+      "filename": "Б1.В.09.01 Предпринимательские договоры (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.В.09.01 Предпринимательские договоры (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-41ef6aab6bdf",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.09.01",
+      "name": "Предпринимательские договоры",
+      "filename": "Б1.В.09.01 Предпринимательские договоры (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.09.01 Предпринимательские договоры (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-ad3d75be15a5",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.09.02",
+      "name": "Внешнеэкономические сделки",
+      "filename": "Б1.В.09.02 Внешнеэкономические сделки (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.09.02 Внешнеэкономические сделки (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-6f68a3268dd8",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": "Б1.В.10",
+      "name": "Коммерческие корпорации",
+      "filename": "Б1.В.10 Коммерческие корпорации (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б1.В.10 Коммерческие корпорации (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-4cf1bae8f6bf",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б1.В.10",
+      "name": "Коммерческие корпорации",
+      "filename": "Б1.В.10 Коммерческие корпорации (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б1.В.10 Коммерческие корпорации (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-d4770d59f730",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.10",
+      "name": "Конституционное право",
+      "filename": "Б1.О.10 Конституционное право (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.10 Конституционное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-63f91bcce04f",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.В.10",
+      "name": "Муниципальное право",
+      "filename": "Б1.В.10 Муниципальное право (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.В.10 Муниципальное право (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-d486308d6145",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.В.10",
+      "name": "Несостоятельность (банкротство) корпораций",
+      "filename": "Б1.В.10 Несостоятельность (банкротство) корпораций (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.В.10 Несостоятельность (банкротство) корпораций (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-2436b338a220",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "Б1.В.10",
+      "name": "Несостоятельность (банкротство) корпораций",
+      "filename": "Б1.В.10 Несостоятельность (банкротство) корпораций (РПД).pdf",
+      "path": "documents/master/corporate-law/2/Б1.В.10 Несостоятельность (банкротство) корпораций (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-0750a95ba68b",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.О.11",
+      "name": "Административное право",
+      "filename": "Б1.О.11 Административное право (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.О.11 Административное право (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-2015a7aac8a7",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": "Б1.В.11",
+      "name": "Сделки хозяйственных обществ с особым режимом",
+      "filename": "Б1.В.11 Сделки хозяйственных обществ с особым режимом (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б1.В.11 Сделки хозяйственных обществ с особым режимом (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-ce2be87abb6a",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.О.12",
+      "name": "Арбитражный процесс",
+      "filename": "Б1.О.12 Арбитражный процесс (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.О.12 Арбитражный процесс (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-cf30d9cfdc0e",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.В.12",
+      "name": "Наследственное право",
+      "filename": "Б1.В.12 Наследственное право (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.В.12 Наследственное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-dcd7f5456bf3",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.В.12",
+      "name": "Наследственное право",
+      "filename": "Б1.В.12 Наследственное право (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.В.12 Наследственное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-3241c3af5050",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.12.01",
+      "name": "Гражданское право (общая часть)",
+      "filename": "Б1.О.12.01 Гражданское право (общая часть) (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.12.01 Гражданское право (общая часть) (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-f126aabf67b9",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.О.12.01",
+      "name": "Гражданское право (общая часть)",
+      "filename": "Б1.О.12.01 Гражданское право (общая часть) (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.О.12.01 Гражданское право (общая часть) (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-120c6c7d336e",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.О.12.02",
+      "name": "Гражданское право (особенная часть)",
+      "filename": "Б1.О.12.02 Гражданское право (особенная часть) (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.О.12.02 Гражданское право (особенная часть) (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-37326d544e7c",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.О.13",
+      "name": "Гражданский процесс",
+      "filename": "Б1.О.13 Гражданский процесс (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.О.13 Гражданский процесс (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-cec95389654a",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.В.14",
+      "name": "Проблемы теории права",
+      "filename": "Б1.В.14 Проблемы теории права (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.В.14 Проблемы теории права (РПД).pdf"
+    },
+    {
+      "id": "bachelor-5-9140b8f05fd9",
+      "level": "bachelor",
+      "program": null,
+      "course": 5,
+      "code": "Б1.В.14",
+      "name": "Проблемы теории права",
+      "filename": "Б1.В.14 Проблемы теории права (РПД).pdf",
+      "path": "documents/bachelor/5/Б1.В.14 Проблемы теории права (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-b102c10ca814",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.В.15",
+      "name": "Муниципальное право",
+      "filename": "Б1.В.15 Муниципальное право (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.В.15 Муниципальное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-9fbaa09c7ab4",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.О.15",
+      "name": "Трудовое право",
+      "filename": "Б1.О.15 Трудовое право (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.О.15 Трудовое право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-621d4c193445",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.О.15",
+      "name": "Уголовный процесс",
+      "filename": "Б1.О.15 Уголовный процесс (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.О.15 Уголовный процесс (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-d677ef8329af",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.16",
+      "name": "Уголовное право",
+      "filename": "Б1.О.16 Уголовное право (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.16 Уголовное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-af9e2fdc6980",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.О.16",
+      "name": "Экологическое право",
+      "filename": "Б1.О.16 Экологическое право (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.О.16 Экологическое право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-ef1950bb6581",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.О.16.01",
+      "name": "Уголовное право (общая часть)",
+      "filename": "Б1.О.16.01 Уголовное право (общая часть) (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.О.16.01 Уголовное право (общая часть) (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-b00196f32e56",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.О.16.02",
+      "name": "Уголовное право (особенная часть)",
+      "filename": "Б1.О.16.02 Уголовное право (особенная часть) (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.О.16.02 Уголовное право (особенная часть) (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-2ba6ceec73d0",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.О.17",
+      "name": "Земельное право",
+      "filename": "Б1.О.17 Земельное право (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.О.17 Земельное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-00be6a179840",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.О.17",
+      "name": "Уголовный процесс",
+      "filename": "Б1.О.17 Уголовный процесс (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.О.17 Уголовный процесс (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-2792e196038a",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.О.18",
+      "name": "Финансовое право",
+      "filename": "Б1.О.18 Финансовое право (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.О.18 Финансовое право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-b726ef6c980b",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.18",
+      "name": "Экол право. профиль (Бизнес-право)",
+      "filename": "Б1.О.18 Экол право. профиль (Бизнес-право) (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.18 Экол право. профиль (Бизнес-право) (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-b62d9e48deb8",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.О.18",
+      "name": "Экологическое право",
+      "filename": "Б1.О.18 Экологическое право  (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.О.18 Экологическое право  (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-453377728d35",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.О.18",
+      "name": "Экологическое право",
+      "filename": "Б1.О.18 Экологическое право (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.О.18 Экологическое право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-bbeedac623be",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.О.19.01",
+      "name": "Налоговое право (общая часть)",
+      "filename": "Б1.О.19.01 Налоговое право (общая часть) (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.О.19.01 Налоговое право (общая часть) (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-b1b2467e7e2a",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.О.19.02",
+      "name": "Налоговое право (особенная часть)",
+      "filename": "Б1.О.19.02 Налоговое право (особенная часть) (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.О.19.02 Налоговое право (особенная часть) (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-d2da4551ac54",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.О.20",
+      "name": "Предпринимательское право",
+      "filename": "Б1.О.20 Предпринимательское право (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.О.20 Предпринимательское право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-2b86673d9550",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.О.20",
+      "name": "Финансовое право",
+      "filename": "Б1.О.20 Финансовое право (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.О.20 Финансовое право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-944cf3863ee5",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.О.22",
+      "name": "Международное частное право",
+      "filename": "Б1.О.22 Международное частное право (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.О.22 Международное частное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-ae76fc3def32",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.О.23",
+      "name": "Криминалистика",
+      "filename": "Б1.О.23 Криминалистика (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.О.23 Криминалистика (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-75a6e6d45c86",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.О.23",
+      "name": "Международное право",
+      "filename": "Б1.О.23 Международное право (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.О.23 Международное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-e890a013b02d",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.О.24",
+      "name": "Криминология",
+      "filename": "Б1.О.24 Криминология (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.О.24 Криминология (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-2dceeb19311a",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.О.24",
+      "name": "Международное частное право",
+      "filename": "Б1.О.24 Международное частное право (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.О.24 Международное частное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-c69e6bec25b9",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.О.25",
+      "name": "Криминалистика",
+      "filename": "Б1.О.25 Криминалистика (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.О.25 Криминалистика (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-4d7fc76bd3fd",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.О.25",
+      "name": "Право социального обеспечения",
+      "filename": "Б1.О.25 Право социального обеспечения (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.О.25 Право социального обеспечения (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-f6ea7659758c",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.27",
+      "name": "Право социального обеспечения",
+      "filename": "Б1.О.27 Право социального обеспечения (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.27 Право социального обеспечения (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-bcf686acf62e",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.О.27",
+      "name": "Право социального обеспечения",
+      "filename": "Б1.О.27 Право социального обеспечения (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.О.27 Право социального обеспечения (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-25957387c067",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.28",
+      "name": "Семейное право",
+      "filename": "Б1.О.28 Семейное право (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.28 Семейное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-2c8be4cd5f48",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.О.28",
+      "name": "Семейное право",
+      "filename": "Б1.О.28 Семейное право (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.О.28 Семейное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-877b7b0a45e5",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.О.28",
+      "name": "Семейное право",
+      "filename": "Б1.О.28 Семейное право (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.О.28 Семейное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-6031cd77331a",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.29",
+      "name": "Информационные технологии в юридической деятельности",
+      "filename": "Б1.О.29 Информационные технологии в юридической деятельности (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.29 Информационные технологии в юридической деятельности (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-5bff57745eab",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.О.29",
+      "name": "Информационные технологии в юридической деятельности",
+      "filename": "Б1.О.29 Информационные технологии в юридической деятельности (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.О.29 Информационные технологии в юридической деятельности (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-e86c8a93e1dc",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": "Б1.О.29",
+      "name": "Элективные дисциплины (модули) по физической культуре и спорту",
+      "filename": "Б1.О.29 Элективные дисциплины (модули) по физической культуре и спорту (РПД).pdf",
+      "path": "documents/bachelor/4/Б1.О.29 Элективные дисциплины (модули) по физической культуре и спорту (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-f7f73809b233",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.30",
+      "name": "Системы искусственного интеллекта",
+      "filename": "Б1.О.30 Системы искусственного интеллекта (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.30 Системы искусственного интеллекта (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-66c31b444e7e",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.О.30",
+      "name": "Системы искусственного интеллекта",
+      "filename": "Б1.О.30 Системы искусственного интеллекта (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.О.30 Системы искусственного интеллекта (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-8c4ecef7d14d",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.О.30",
+      "name": "Системы искусственного интеллекта",
+      "filename": "Б1.О.30 Системы искусственного интеллекта (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.О.30 Системы искусственного интеллекта (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-7f4f188b9462",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.О.31Физическая",
+      "name": "культура",
+      "filename": "Б1.О.31Физическая культура (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.О.31Физическая культура (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-6c154cc92572",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.31Физическая",
+      "name": "культура и спорт",
+      "filename": "Б1.О.31Физическая культура и спорт (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.31Физическая культура и спорт (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-0413edd3578d",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.О.32",
+      "name": "Элективные дисциплины по физической культуре",
+      "filename": "Б1.О.32 Элективные дисциплины по физической культуре  (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.О.32 Элективные дисциплины по физической культуре  (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-e832a34c224a",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.32",
+      "name": "Элективные дисциплины по ФК",
+      "filename": "Б1.О.32 Элективные дисциплины по ФК (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.32 Элективные дисциплины по ФК (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-2b85e954d46c",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.О.32",
+      "name": "Элективные дисциплины по ФК",
+      "filename": "Б1.О.32 Элективные дисциплины по ФК (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.О.32 Элективные дисциплины по ФК (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-2d0fc1971afa",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.33",
+      "name": "Логика",
+      "filename": "Б1.О.33 Логика (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.33 Логика (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-d182fbde4513",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "Б1.О.33",
+      "name": "Логика",
+      "filename": "Б1.О.33 Логика (РПД).pdf",
+      "path": "documents/bachelor/2/Б1.О.33 Логика (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-d9971792aa30",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.34",
+      "name": "Введение в профессию",
+      "filename": "Б1.О.34 Введение в профессию (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.34 Введение в профессию (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-57909320b021",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.35",
+      "name": "Риторика для юристов",
+      "filename": "Б1.О.35 Риторика для юристов (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.35 Риторика для юристов (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-490b35d2b02b",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": "Б1.О.37",
+      "name": "Автоматизация юридических процессов",
+      "filename": "Б1.О.37 Автоматизация юридических процессов (РПД).pdf",
+      "path": "documents/bachelor/3/Б1.О.37 Автоматизация юридических процессов (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-9fa9e9076347",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.37",
+      "name": "Муниципальное право",
+      "filename": "Б1.О.37 Муниципальное право (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.37 Муниципальное право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-539ec2c60f94",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.41",
+      "name": "Экономика для юристов",
+      "filename": "Б1.О.41  Экономика для юристов (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.41  Экономика для юристов (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-9f34c418073c",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.42",
+      "name": "Римское право",
+      "filename": "Б1.О.42 Римское право (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.42 Римское право (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-43c3ecc88db2",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.43",
+      "name": "Латинский язык",
+      "filename": "Б1.О.43 Латинский язык (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.43 Латинский язык (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-4cffdebf1b2b",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": "Б1.О.44",
+      "name": "Судоустройство и правоохранительные органы",
+      "filename": "Б1.О.44 Судоустройство и правоохранительные органы (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.44 Судоустройство и правоохранительные органы (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-863ddd6c8b90",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "Б2.О.01",
+      "name": "(У) Учебная практика ознакомительная практика",
+      "filename": "Б2.О.01 (У) Учебная практика ознакомительная практика РПД.pdf",
+      "path": "documents/master/corporate-law/2/Б2.О.01 (У) Учебная практика ознакомительная практика РПД.pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-735920ca293e",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": "Б2.B.02",
+      "name": "(Пд) Производственная практика преддипломная практика",
+      "filename": "Б2.B.02 (Пд) Производственная практика преддипломная практика (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б2.B.02 (Пд) Производственная практика преддипломная практика (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-2-bf6ef948e559",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "Б2.B.02",
+      "name": "(Пд) Производственная практика преддипломная практика",
+      "filename": "Б2.B.02 (Пд) Производственная практика преддипломная практика РПД.pdf",
+      "path": "documents/master/corporate-law/2/Б2.B.02 (Пд) Производственная практика преддипломная практика РПД.pdf"
+    },
+    {
+      "id": "master-corporate-law-2-b70d54460c0b",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 2,
+      "code": "Б2.B.02",
+      "name": "(Пд) Производственная практика РПД КП_25",
+      "filename": "Б2.B.02 (Пд) Производственная практика РПД КП_25.pdf",
+      "path": "documents/master/corporate-law/2/Б2.B.02 (Пд) Производственная практика РПД КП_25.pdf"
+    },
+    {
+      "id": "bachelor-2-1bc03cf55297",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "ФТД.В.ДВ.02.02",
+      "name": "Деят. юриста по оказанию юр. помощи",
+      "filename": "ФТД.В.ДВ.02.02 Деят. юриста по оказанию юр. помощи (РПД).pdf",
+      "path": "documents/bachelor/2/ФТД.В.ДВ.02.02 Деят. юриста по оказанию юр. помощи (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-e29a09134ddc",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "ФТД.В.ДВ.02.03",
+      "name": "Организация добровольческой (волонт) деят-ти и взаим с соц-ориен НКО",
+      "filename": "ФТД.В.ДВ.02.03  Организация добровольческой (волонт) деят-ти и взаим с соц-ориен НКО (РПД).pdf",
+      "path": "documents/bachelor/2/ФТД.В.ДВ.02.03  Организация добровольческой (волонт) деят-ти и взаим с соц-ориен НКО (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-65753f1bbc10",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "ФТД.В.ДВ.02.04",
+      "name": "Основы цифрового права",
+      "filename": "ФТД.В.ДВ.02.04 Основы цифрового права (РПД).pdf",
+      "path": "documents/bachelor/2/ФТД.В.ДВ.02.04 Основы цифрового права (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-8b629043d4c3",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": "ФТД.В.ДВ.02.05",
+      "name": "Нюрнберские принципы",
+      "filename": "ФТД.В.ДВ.02.05 Нюрнберские принципы (РПД).pdf",
+      "path": "documents/bachelor/2/ФТД.В.ДВ.02.05 Нюрнберские принципы (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-6602f7f3af7c",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": null,
+      "name": "Б1.О.11. Административное право (РП)",
+      "filename": "Б1.О.11. Административное право (РП).pdf",
+      "path": "documents/bachelor/1/Б1.О.11. Административное право (РП).pdf"
+    },
+    {
+      "id": "bachelor-1-1422bbe8e87e",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": null,
+      "name": "Б1.О.15. Трудовое право (Бизнес право)",
+      "filename": "Б1.О.15. Трудовое право (Бизнес право) (РПД).pdf",
+      "path": "documents/bachelor/1/Б1.О.15. Трудовое право (Бизнес право) (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-57b5adfb71d1",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": null,
+      "name": "Б2.В.01(Н) НИС №2",
+      "filename": "Б2.В.01(Н) НИС №2 (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б2.В.01(Н) НИС №2 (РПД).pdf"
+    },
+    {
+      "id": "bachelor-3-b16fa7d07652",
+      "level": "bachelor",
+      "program": null,
+      "course": 3,
+      "code": null,
+      "name": "Б2.В.01(П) Производственная практика правоприменительная практика",
+      "filename": "Б2.В.01(П) Производственная практика правоприменительная практика (РПД).pdf",
+      "path": "documents/bachelor/3/Б2.В.01(П) Производственная практика правоприменительная практика (РПД).pdf"
+    },
+    {
+      "id": "bachelor-4-a7a599fc9e02",
+      "level": "bachelor",
+      "program": null,
+      "course": 4,
+      "code": null,
+      "name": "Б2.В.01(П) Производственная практика правоприменительная практика",
+      "filename": "Б2.В.01(П) Производственная практика правоприменительная практика РПД.pdf",
+      "path": "documents/bachelor/4/Б2.В.01(П) Производственная практика правоприменительная практика РПД.pdf"
+    },
+    {
+      "id": "bachelor-1-2b7249887649",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": null,
+      "name": "Б2.О.01(У) Учебная практика ознакомительная практика",
+      "filename": "Б2.О.01(У) Учебная практика ознакомительная практика (РПД).pdf",
+      "path": "documents/bachelor/1/Б2.О.01(У) Учебная практика ознакомительная практика (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-53af52d124b2",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": null,
+      "name": "Б2.О.01(У) Учебная практика ознакомительная практика",
+      "filename": "Б2.О.01(У) Учебная практика ознакомительная практика (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б2.О.01(У) Учебная практика ознакомительная практика (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-2-bcc80bcce8a1",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 2,
+      "code": null,
+      "name": "Б2.О.01(У) Учебная практика ознакомительная практика",
+      "filename": "Б2.О.01(У) Учебная практика ознакомительная практика (РПД).pdf",
+      "path": "documents/master/business-legal-support/2/Б2.О.01(У) Учебная практика ознакомительная практика (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-8d608bf1adaa",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": null,
+      "name": "Б2.О.01(У) Учебная практика ознакомительная практика",
+      "filename": "Б2.О.01(У) Учебная практика ознакомительная практика (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б2.О.01(У) Учебная практика ознакомительная практика (РПД).pdf"
+    },
+    {
+      "id": "master-business-legal-support-1-077717e8d672",
+      "level": "master",
+      "program": "business-legal-support",
+      "course": 1,
+      "code": null,
+      "name": "Б2.О.02(Н) НИС №1",
+      "filename": "Б2.О.02(Н) НИС №1 (РПД).pdf",
+      "path": "documents/master/business-legal-support/1/Б2.О.02(Н) НИС №1 (РПД).pdf"
+    },
+    {
+      "id": "master-corporate-law-1-a28ef5e1fb7a",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": null,
+      "name": "Б2.О.02(Н) НИС №1",
+      "filename": "Б2.О.02(Н) НИС №1 (РПД).pdf",
+      "path": "documents/master/corporate-law/1/Б2.О.02(Н) НИС №1 (РПД).pdf"
+    },
+    {
+      "id": "bachelor-2-07c0511d1e46",
+      "level": "bachelor",
+      "program": null,
+      "course": 2,
+      "code": null,
+      "name": "Б2.О.02(У) Учебная практика правоприменительная практика",
+      "filename": "Б2.О.02(У) Учебная практика правоприменительная практика РПД.pdf",
+      "path": "documents/bachelor/2/Б2.О.02(У) Учебная практика правоприменительная практика РПД.pdf"
+    },
+    {
+      "id": "master-corporate-law-1-833902075471",
+      "level": "master",
+      "program": "corporate-law",
+      "course": 1,
+      "code": null,
+      "name": "ФТД .01 Права человека в Российской Федерации",
+      "filename": "ФТД .01 Права человека в Российской Федерации (РПД).pdf",
+      "path": "documents/master/corporate-law/1/ФТД .01 Права человека в Российской Федерации (РПД).pdf"
+    },
+    {
+      "id": "bachelor-1-a6a9f93143db",
+      "level": "bachelor",
+      "program": null,
+      "course": 1,
+      "code": null,
+      "name": "ФТД.В.ДВ.01.03. Практический курс по модельным процессам",
+      "filename": "ФТД.В.ДВ.01.03. Практический курс по модельным процессам (РПД).pdf",
+      "path": "documents/bachelor/1/ФТД.В.ДВ.01.03. Практический курс по модельным процессам (РПД).pdf"
+    }
+  ]
 }
